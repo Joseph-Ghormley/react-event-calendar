@@ -59,9 +59,17 @@ Future video link:
 
 ## Sources and References
 
-- CodePath WEB102 lab instructions
-- React documentation
-- Vite documentation
+- CodePath WEB102 Lab: Unit 1 - Timetabled
+- Vite Documentation: Getting Started with Vite  
+  https://vite.dev/guide/
+- React Documentation: Your First Component  
+  https://react.dev/learn/your-first-component
+- React Documentation: Writing Markup with JSX  
+  https://react.dev/learn/writing-markup-with-jsx
+- React Documentation: JavaScript in JSX  
+  https://react.dev/learn/javascript-in-jsx-with-curly-braces
+- React Documentation: Passing Props to a Component  
+  https://react.dev/learn/passing-props-to-a-component
 
 ## Future Improvements
 
