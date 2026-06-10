@@ -1,20 +1,26 @@
 # React Event Calendar
 
-A React and Vite event calendar app for organizing weekly activities, game sessions, and community schedules.
+A React and Vite event calendar app for organizing weekly activities, study sessions, game sessions, and community schedules.
 
 ## Objective
 
-The goal of this project is to build a reusable weekly event calendar using React. The app is designed to display scheduled activities in a clean timetable format and can be adapted for class schedules, community events, travel itineraries, or Minecraft server planning.
+The goal of this project is to build a reusable weekly event calendar using React. The app displays scheduled activities in a clean timetable format and can be adapted for class schedules, community events, travel itineraries, or Minecraft server planning.
 
 This project was created as part of CodePath WEB102 to practice React fundamentals such as components, JSX, props, styling, and project setup with Vite.
+
+## Demo
+
+![React Event Calendar Demo](./demo.gif)
 
 ## Features
 
 - Weekly calendar layout
-- Event cards displayed in scheduled time blocks
+- Events displayed in scheduled time blocks
 - Reusable React components
-- Custom event titles and colors
-- Flexible structure for future event details such as location, category, or server event type
+- Custom event titles
+- Custom event colors
+- Event locations using props
+- Flexible structure for future schedule types
 
 ## Tech Stack
 
@@ -38,24 +44,29 @@ Then open the local development link shown in the terminal, usually:
 http://localhost:5173/
 ```
 
-## Project Preview
+## Project Structure
 
-Screenshots will be added here once the main calendar display is complete.
+```text
+src/
+  components/
+    Calendar.jsx
+    Event.jsx
+  App.jsx
+  App.css
+  index.css
+```
 
-<!--
-Example future layout:
+## What I Learned
 
-![React Event Calendar Screenshot](./screenshots/calendar-preview.png)
--->
+Through this lab, I practiced:
 
-## Video Demo
-
-A video walkthrough may be added later to explain the project, features, and possible use cases.
-
-<!--
-Future video link:
-[Watch the demo](VIDEO_LINK_HERE)
--->
+- Creating a React project with Vite
+- Building reusable components
+- Passing props between components
+- Using JSX to structure UI elements
+- Styling React components with CSS classes
+- Organizing a weekly calendar layout using table rows and columns
+- Adding a GIF demo to a GitHub README
 
 ## Sources and References
 
@@ -73,8 +84,9 @@ Future video link:
 
 ## Future Improvements
 
-- Add event locations
+- Add mobile-friendly styling
 - Add event categories
 - Add Minecraft server event scheduling
 - Add admin-editable events
-- Add mobile-friendly styling
+- Add clickable event details
+- Add filtering by event type
