@@ -109,3 +109,30 @@ code {
   padding: 4px 8px;
   background: var(--code-bg);
 }
+
+.Event {
+  color: black;
+  border-radius: 8px;
+}
+
+.Event h5 {
+  margin: 0;
+}
+
+.Event h6 {
+  margin: 4px 0 0;
+  font-size: 0.7rem;
+  font-weight: 400;
+}
+
+.Event.green {
+  background-color: #b9fbc0;
+}
+
+.Event.blue {
+  background-color: #dbeafe;
+}
+
+.Event.pink {
+  background-color: #fbcfe8;
+}
